@@ -1,8 +1,11 @@
+----------------------------------pip------------------------------------------------
+
 PIP is the preferred installer program which is a package manager for Python packages.
 Normally pip is already installed  with Python 3.4 and above.
 Here are few commands(for cmd) to get started with PIP
 1.  To check if pip is installed
-      python -m ensurepip –default-pip
+
+      ```python -m ensurepip –default-pip```
 2.	To see default version
       
       ```pip -V```  
@@ -10,28 +13,34 @@ Here are few commands(for cmd) to get started with PIP
       
       ```pip –version```
 3.	To upgrade pip
-      python -m pip install --upgrade pip
+
+      ```python -m pip install --upgrade pip```
 4.	To install python lib
-      python -m pip install lib_name
-      example: python -m pip install numpy
+
+      ```python -m pip install lib_name```
+      ```example: python -m pip install numpy```
 5.	To upgrade any package
-      python -m pip install --upgrade package_name
-      python -m pip install --upgrade package_name==2.0.1	#for specific purpose
+
+     ``` python -m pip install --upgrade package_name
+      python -m pip install --upgrade package_name==2.0.1	#for specific purpose```
 
 
 CONDA is the package manager of Anaconda which handle library dependencies outside of the Python packages as well as the Python packages themselves.
 1.	To see default version
-      conda update conda
+
+      ```conda update conda```
 2.	To install package
-      conda install PACKAGENAME
+
+      ```conda install PACKAGENAME```
 3.	To update package
-      conda update PACKAGENAME
+
+      ```conda update PACKAGENAME```
 
 Conda cheat-sheet link:- https://conda.io/docs/_downloads/conda-cheatsheet.pdf
 
 CONDA-FORGE  is a github organization containing repositories of conda recipes. It is an additional channel from which packages may be installed, which can be used to install non-mainstream packages also.
 To configure conda-forge channel
-      conda config --add channels conda-forge
+      ```conda config --add channels conda-forge```
 After configuring conda-forge channel whenever you install any package from command conda install <package_name> it will be installed from conda-forge channel.
 
 There are three main reasons to use the conda-forge channel instead of the default channel maintained by Anaconda:
