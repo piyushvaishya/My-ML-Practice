@@ -18,11 +18,13 @@ Here are few commands(for cmd) to get started with PIP
 4.	To install python lib
 
       ```python -m pip install lib_name```
+      
       ```example: python -m pip install numpy```
 5.	To upgrade any package
 
-     ``` python -m pip install --upgrade package_name
-      python -m pip install --upgrade package_name==2.0.1	#for specific purpose```
+     ```python -m pip install --upgrade package_name```
+     
+     ```python -m pip install --upgrade package_name==2.0.1```	#for specific purpose
 
 ##CONDA
 
@@ -41,6 +43,7 @@ Conda cheat-sheet link:- https://conda.io/docs/_downloads/conda-cheatsheet.pdf
 
 CONDA-FORGE  is a github organization containing repositories of conda recipes. It is an additional channel from which packages may be installed, which can be used to install non-mainstream packages also.
 To configure conda-forge channel
+
       ```conda config --add channels conda-forge```
 After configuring conda-forge channel whenever you install any package from command conda install <package_name> it will be installed from conda-forge channel.
 
@@ -63,23 +66,39 @@ The Jupyter Notebook is an open-source web application that allows you to create
       
 3.  Types of cell in notebook
 ..*	Code – This is self-explanatory; it is where you type your code
+
 ..*	Markdown – This is where you type your text. You can add your conclusions after running a code, add comments, etc.
+
 ..*	Raw NBConvert – It’s a command line tool to convert your notebook into another format (like HTML)
+
 ..*	Heading – This is where you add Headings to separate sections and make your notebook look tidy and neat. This has now been converted into the Markdown option itself. Add a ‘##’ to ensure that whatever you type after that will be taken as a heading
+
 
 4.  Few shortcuts for notebook
 ..*	Toggle between edit and command mode with Esc and Enter, respectively.
+
 ..*	Once in command mode:
+
 ..*	Scroll up and down your cells with your Up and Down keys.
+
 ..*	Press A or B to insert a new cell above or below the active cell.
+
 ..*	M will transform the active cell to a Markdown cell.
+
 ..*	Y will set the active cell to a code cell.
+
 ..*	D + D (D twice) will delete the active cell.
+
 ..*	Z will undo cell deletion.
+
 ..*	Hold Shift and press Up or Down to select multiple cells at once.
+
 ..*	With multple cells selected, Shift + M will merge your selection.
+
 ..*	Ctrl + Shift + -, in edit mode, will split the active cell at the cursor.
+
 ..*	You can also click and Shift + Click in the margin to the left of your cells to select them.
+
 
 5.  To save notebook
       ```File->Download As-> choose the format in which you want to save.```
