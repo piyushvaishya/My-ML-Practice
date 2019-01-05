@@ -1,13 +1,14 @@
-#pip
 PIP is the preferred installer program which is a package manager for Python packages.
 Normally pip is already installed  with Python 3.4 and above.
 Here are few commands(for cmd) to get started with PIP
 1.  To check if pip is installed
       python -m ensurepip –default-pip
 2.	To see default version
-      pip -V  
+      
+      ```pip -V```  
       or
-      pip –version
+      
+      ```pip –version```
 3.	To upgrade pip
       python -m pip install --upgrade pip
 4.	To install python lib
@@ -17,7 +18,7 @@ Here are few commands(for cmd) to get started with PIP
       python -m pip install --upgrade package_name
       python -m pip install --upgrade package_name==2.0.1	#for specific purpose
 
-#conda
+
 CONDA is the package manager of Anaconda which handle library dependencies outside of the Python packages as well as the Python packages themselves.
 1.	To see default version
       conda update conda
@@ -37,6 +38,7 @@ There are three main reasons to use the conda-forge channel instead of the defau
 1.	Packages on conda-forge may be more up-to-date than those on the defaults channel
 2.	There are packages on the conda-forge channel that aren't available from defaults
 3.	If you are installing a package that requires a compiled library (e.g., a C extension or a wrapper around a C library), it may reduce the chance of incompatibilities if you install all of the packages in an environment from a single channel due to binary compatibility of the base C library (but this advice may be out of date/change in the future).
+
 
 #jupyter notebook
 
