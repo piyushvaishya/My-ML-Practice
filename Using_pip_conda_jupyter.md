@@ -45,6 +45,7 @@ CONDA-FORGE  is a github organization containing repositories of conda recipes. 
 To configure conda-forge channel
 
       ```conda config --add channels conda-forge```
+      
 After configuring conda-forge channel whenever you install any package from command conda install <package_name> it will be installed from conda-forge channel.
 
 There are three main reasons to use the conda-forge channel instead of the default channel maintained by Anaconda:
@@ -65,39 +66,41 @@ The Jupyter Notebook is an open-source web application that allows you to create
       ```Click New->Python 3```
       
 3.  Types of cell in notebook
-..*	Code – This is self-explanatory; it is where you type your code
 
-..*	Markdown – This is where you type your text. You can add your conclusions after running a code, add comments, etc.
+      ..*	Code – This is self-explanatory; it is where you type your code
 
-..*	Raw NBConvert – It’s a command line tool to convert your notebook into another format (like HTML)
+      ..*	Markdown – This is where you type your text. You can add your conclusions after running a code, add comments, etc.
 
-..*	Heading – This is where you add Headings to separate sections and make your notebook look tidy and neat. This has now been converted into the Markdown option itself. Add a ‘##’ to ensure that whatever you type after that will be taken as a heading
+      ..*	Raw NBConvert – It’s a command line tool to convert your notebook into another format (like HTML)
+
+      ..*	Heading – This is where you add Headings to separate sections and make your notebook look tidy and neat. This has now been          converted into the Markdown option itself. Add a ‘##’ to ensure that whatever you type after that will be taken as a heading
 
 
 4.  Few shortcuts for notebook
-..*	Toggle between edit and command mode with Esc and Enter, respectively.
 
-..*	Once in command mode:
+      ..*	Toggle between edit and command mode with Esc and Enter, respectively.
 
-..*	Scroll up and down your cells with your Up and Down keys.
+      ..*	Once in command mode:
 
-..*	Press A or B to insert a new cell above or below the active cell.
+      ..*	Scroll up and down your cells with your Up and Down keys.
 
-..*	M will transform the active cell to a Markdown cell.
+      ..*	Press A or B to insert a new cell above or below the active cell.
 
-..*	Y will set the active cell to a code cell.
+      ..*	M will transform the active cell to a Markdown cell.
 
-..*	D + D (D twice) will delete the active cell.
+      ..*	Y will set the active cell to a code cell.
 
-..*	Z will undo cell deletion.
+      ..*	D + D (D twice) will delete the active cell.
 
-..*	Hold Shift and press Up or Down to select multiple cells at once.
+      ..*	Z will undo cell deletion.
 
-..*	With multple cells selected, Shift + M will merge your selection.
+      ..*	Hold Shift and press Up or Down to select multiple cells at once.
 
-..*	Ctrl + Shift + -, in edit mode, will split the active cell at the cursor.
+      ..*	With multple cells selected, Shift + M will merge your selection.
 
-..*	You can also click and Shift + Click in the margin to the left of your cells to select them.
+      ..*	Ctrl + Shift + -, in edit mode, will split the active cell at the cursor.
+
+      ..*	You can also click and Shift + Click in the margin to the left of your cells to select them.
 
 
 5.  To save notebook
