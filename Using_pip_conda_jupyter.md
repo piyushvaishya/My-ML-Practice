@@ -1,4 +1,5 @@
 ----------------------------------pip------------------------------------------------
+
 PIP is the preferred installer program which is a package manager for Python packages.
 Normally pip is already installed  with Python 3.4 and above.
 Here are few commands(for cmd) to get started with PIP
@@ -18,6 +19,7 @@ Here are few commands(for cmd) to get started with PIP
       python -m pip install --upgrade package_name==2.0.1	#for specific purpose
 
 ---------------------------------conda-------------------------------------------------
+
 CONDA is the package manager of Anaconda which handle library dependencies outside of the Python packages as well as the Python packages themselves.
 1.	To see default version
       conda update conda
@@ -40,6 +42,7 @@ There are three main reasons to use the conda-forge channel instead of the defau
 
 
 ------------------------------------------------jupyter notebook----------------------------------------------------
+
 The Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text. Uses include: data cleaning and transformation, numerical simulation, statistical modeling, data visualization, machine learning, and much more.
 1.	To launch jupyter notebook using cmd
       jupyter notebook
